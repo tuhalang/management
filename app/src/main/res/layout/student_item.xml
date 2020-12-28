@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/avatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="S"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/oval_background"/>
+
+
+    <TextView
+        android:id="@+id/ten_sv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/avatar"
+        android:layout_toRightOf="@id/avatar"
+        android:text="ten sv"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/email_sv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_below="@+id/ten_sv"
+        android:text="email sv"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/mssv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_below="@+id/email_sv"
+        android:textSize="20dp"
+        android:text="mssv: 20173129"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/checkbox"
+        android:drawableLeft="@drawable/ic_baseline_check_box_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/mssv"
+        android:layout_marginRight="10dp"/>
+
+
+</RelativeLayout>

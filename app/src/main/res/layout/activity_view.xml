@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewStudent">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"></LinearLayout>-->
+    <TextView
+        android:id="@+id/view_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="24dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/view_mssv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mssv: "
+        android:textSize="24dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/view_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="24dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/view_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birth: "
+        android:textSize="24dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/view_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        android:textSize="24dp"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
